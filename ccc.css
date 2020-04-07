@@ -1,102 +1,124 @@
-#main-image{
+#main-image {
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("main.jpg"); 
+        url("pic/main.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 60vh;
 }
-#main-words-p{
+
+#main-words-p {
     color: white;
     font-weight: lighter, bold;
     font-size: 2.5vmax;
     padding-top: 15vh;
 }
-#main-words{
+
+#main-words {
     color: white;
     font-weight: lighter, bold;
     font-size: 2.5vmax;
 }
-#second-words{
+
+#second-words {
     color: white;
     font-weight: lighter;
     font-size: 2vmax;
 }
-.btn-primary{
-    background-color: #6C0852!important;
-    border-color: #6C0852!important;
+
+.btn-primary {
+    background-color: #6C0852 !important;
+    border-color: #6C0852 !important;
     width: 30vw;
     min-width: 230px;
 }
-.btn-primary:hover{
-    background-color: rgb(85, 6, 64)!important;
-    border-color: rgb(85, 6, 64)!important;
+
+.btn-primary:hover {
+    background-color: rgb(85, 6, 64) !important;
+    border-color: rgb(85, 6, 64) !important;
 }
-#butt{
+
+#butt {
     font-size: 1.5vmax;
     font-weight: lighter;
 }
+
 @media screen and (max-width: 400px) {
-    #butt{
+    #butt {
         font-size: 16px;
-      }
     }
-    @media screen and (max-height: 500px) {
-        #butt{
-            font-size: 16px;
-          }
-        }
-#third-words{
+}
+
+@media screen and (max-height: 500px) {
+    #butt {
+        font-size: 16px;
+    }
+}
+
+#third-words {
     color: white;
     font-weight: lighter;
 }
-#title-tetx{
+
+#title-tetx {
     font-weight: lighter;
     font-size: 22px;
 }
-.shrift{
+
+.shrift {
     font-weight: lighter;
     font-size: 22px;
 }
-#prev-txt{
+
+#prev-txt {
     font-weight: lighter, bold;
     font-size: 34px;
 }
-#prev-txt-bot{
+
+#prev-txt-bot {
     font-weight: lighter;
-    font-size: 24px; 
+    font-size: 24px;
 }
-.shrift-goods{
+
+.shrift-goods {
     font-weight: bold;
     font-size: 18px;
 }
-.shrift-goods-description{
+
+.shrift-goods-description {
     font-weight: lighter;
     font-size: 15px;
 }
-.mat{
+
+.mat {
     font-size: 20px;
 }
-.img-logo > img{
+
+.img-logo>img {
     width: 172px;
     height: 120px;
-    border: solid 1px #e2e2e2;    background-position: center center;
+    border: solid 1px #e2e2e2;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 75% auto;
     margin-bottom: 20px;
 }
-#maps > iframe{
+
+#maps>iframe {
     width: 100%;
     height: 50vh;
 }
-.main-logos{
+
+.main-logos {
     max-width: 200px;
 }
-.bold-footer{
-    font-weight: bold,lighter;
+
+.bold-footer {
+    font-weight: bold, lighter;
     font-size: 18px;
 }
-.bold-footer-next{
+
+.bold-footer-next {
     font-weight: bold;
     font-size: 24px;
 }
